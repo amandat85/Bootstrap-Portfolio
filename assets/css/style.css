@@ -9,10 +9,6 @@ body {
     line-height: 150%;
 }    
 
-.backgroundimage {
-    background-image: url("../../assets/images/vintage_speckles.png");
-}
-
 #h1 {
     padding: 25px 25px 25px 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -20,6 +16,7 @@ body {
     margin-left: 120px;
     background-color: #4aaaa5;
     color: #ffffff;
+    margin-top: -1rem;
 }
 
  h2 {
@@ -28,16 +25,30 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color:  #cccccc;
-    padding-bottom: 20px;
+    padding-bottom: 0rem;
  }   
 
 #h1, h2 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+#menualign{
+    margin-left: 37rem;
+    margin-top: 1rem;
 }
 .nav-link {
     color: #cccccc;
 }
 
 .biotext {
-    margin-left: 4em;
+    margin-left: 10rem;
 }
+
+#footercolor {
+    background-color: #666666;
+    border-top: #4aaaa5 solid 8px;
+    text-align: center;
+    flex-shrink: 0;
+    color: #cccccc;
+}
+

@@ -9,15 +9,15 @@
     <title>About</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md py-3">
-        <span class="navbar-brand mb-0" id="h1">Amanda Tomé</span>
+    <nav class="navbar navbar-expand-md navbar-light" style="background: #ffffff">
+        <span class="navbar-brand" id="h1">Amanda Tomé</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav" id="menualign">
+                <li class="nav-item">
                     <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -29,11 +29,15 @@
             </ul>               
         </div>
     </nav>
+
+    <!--Background Image-->
+ <div id="backgroundimage" style="background-image: url(assets/images/vintage_speckles.png)";>  
+
 <!--Main Content Card-->
-<div class="container d.flex">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-10 offset-md-1">
-            <div class="card">
+            <div class="card mt-4">
                 <div class="card-body">
                     <h2 id="cardhearder">About</h2>
                         <div class="container-fluid">
@@ -45,7 +49,7 @@
                                              </div>
                                          </div>
                                      </div>
-                                     <div class="col-md-9 offset-md-2">
+                                     <div class="col-md-11">
                                          <p class="biotext">Welcome Everyone! It's so nice of you to visit my portfolio page. Let me tell you a bit about myself. My name is Amanda and I live in the busy city of Toronto with my sweet ginger cat Ivanhoe. Originally from Montreal, I've spent the last ten years living in various cities across Canada (Saskatoon, Vancouver, Fredericton and Toronto), and in Geneva, Switzerland. I speak both English and French and can understand Portuguese and Italian.</p>
                                  
                                          <p class="biotext">I work as a Digital Archives Specialist with a not-for-profit here in the city, which keeps me quite busy. I also have a background working with traditional Archives (paper based) and Records Management. In my capacity as a Digital Archives Specialist, some of duties involve managing databases, working with open source products, and managing a variety of WordPress sites.</p>
@@ -66,9 +70,13 @@
                 </div>
             </div>
         </div>
-    </div>               
+    </div>  
+</div>                
+</div> 
 
-
+<div class="footer sticky-bottom" id="footercolor">
+    <p>Copyright &copy;</p>
+</div>
 
 <!--JavaScript-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
