@@ -36,6 +36,11 @@ body {
     color: #cccccc;
 }
 
+.photo_text {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
 #submit-style {
     background-color: #4aaaa5;
     color: #ffffff;
