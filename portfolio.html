@@ -11,26 +11,28 @@
 <body>
 
 <!--Navigation (alignment still and issue)-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: #ffffff">
-            <span class="navbar-brand" id="h1">Amanda Tomé</span>
+<div id="headerarea">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #ffffff">    
+            <span class="navbar-brand my-n2 mx-n3" id="h1">Amanda Tomé</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto" id="menualign">
+                <ul class="navbar-nav nav-pills ml-auto" id="menualign">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active" id="changelinkcolor" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>               
             </div>
-        </nav>
+    </nav>
+</div>
 
 <!--Background Image-->
  <div id="backgroundimage" style="background-image: url(assets/images/vintage_speckles.png)";>  
@@ -38,43 +40,43 @@
 <!--Portfolio-->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-md-10">
             <div class="card mt-4">
                 <div class="card-body">
                     <h2>Portfolio</h2>
-                         <div class="container-box">
-                             <div class="row d-flex mb-3">
-                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2">
+                         <div class="container-fluid ml-n3">
+                             <div class="row d-flex mb-1">
+                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2 mb-3">
                                     <img class="img-fluid w-100" style="height: auto" src="assets/images/animals-q-c-640-480-1.jpg" width="350" height="300" alt="Photo of Rhino's">
                                 
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end ml-n1 mr-n1">
                                         <p class="card-text photo_text text-center">Hangman</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2">
+                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2 mb-3">
                                     <img class="img-fluid w-100" style="height: auto" src="assets/images/animals-q-c-640-480-3.jpg" width="350" height="300" alt="Photo of Sleeping Tiger">
 
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end ml-n1 mr-n1">
                                             <p class="card-text photo_text text-center">RPG Game</p>
                                     </div>
                                 </div> 
                             </div>
 
-                            <div class="row d-flex mb-3">
-                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2">
+                            <div class="row d-flex mb-1">
+                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2 mb-3">
                                     <img class="img-fluid w-100" style="height: auto" src="assets/images/animals-q-c-640-480-6.jpg" width="350" height="300" alt="Photo of Pig">
 
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end ml-n1 mr-n1">
                                             <p class="card-text photo_text text-center">Trivia</p>
                                     </div>
 
                                 </div>
 
-                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2">
+                                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2 mb-3">
                                     <img class="img-fluid w-100" style="height: auto" src="assets/images/animals-q-c-640-480-8.jpg" width="350" height="300" alt="Photo of Puppy">
 
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end ml-n1 mr-n1">
                                             <p class="card-text photo_text text-center">Rutgers</p>
                                     </div>
                                 </div> 
@@ -84,7 +86,7 @@
                                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2">
                                     <img class="img-fluid w-100" style="height: auto" src="assets/images/cats-q-c-640-480-3.jpg" width="350" height="300" alt="Photo of Cat">
                             
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end ml-n1 mr-n1">
                                             <p class="card-text photo_text text-center">Rutgers</p>
                                     </div>
                                 </div>
@@ -97,7 +99,7 @@
 </div>
 
 <!--Footer-->
-<div class="footer d-flex align-baseline justify-content-center mt-4" id="footercolor">
+<div class="footer d-flex fixed-bottom justify-content-center mt-4" id="footercolor">
     <p>Copyright &copy;</p>
 </div>
 
