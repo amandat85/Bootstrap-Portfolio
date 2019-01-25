@@ -36,6 +36,10 @@ body {
     color: #cccccc;
 }
 
+#submit-style {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
 
 #footercolor {
     background-color: #666666;
