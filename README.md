@@ -11,4 +11,4 @@ Bootstrap Portfolio: https://amandat85.github.io/Bootstrap-Portfolio/
 * Bootstrap 4
 
 ## Screen Capture
-![Bootstrap Portfolio - About Page](bootstrapportfolio.png)
+![Bootstrap Portfolio - About Page](boostrapportfolio.png)
